@@ -9,7 +9,7 @@ int CheckMulti(long n);
 
 int main(){
     long num = 0;
-    for(num = 988001; num > 0; num--)
+    for(num = 999 * 999; num > 0; num--)
     {
         if(num == FlippedNum(num))
         {
