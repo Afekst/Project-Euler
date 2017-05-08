@@ -23,7 +23,7 @@ int main()
         fib = first + second;
         first = second;
         second = fib;
-    }while(seconed < MAXFIBNUM);
+    }while(second < MAXFIBNUM);
 
     printf("\n%d", sum);
 
