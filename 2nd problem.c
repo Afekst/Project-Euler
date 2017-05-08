@@ -10,7 +10,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 int main()
 {
     int first = 1;
-    int seconed = 1;
+    int second = 1;
     int fib = 0;
     int sum = 0;
 
@@ -18,11 +18,11 @@ int main()
 
     do
     {
-        if(seconed % 2 == 0)
-            sum = sum + seconed;
-        fib = first + seconed;
-        first = seconed;
-        seconed = fib;
+        if(second % 2 == 0)
+            sum = sum + second;
+        fib = first + second;
+        first = second;
+        second = fib;
     }while(seconed < MAXFIBNUM);
 
     printf("\n%d", sum);
